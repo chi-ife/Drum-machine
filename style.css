@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+main{
+    margin: 2.5rem;
+    width: auto;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: rgb(46, 57, 66);
+    margin: 1.5rem;
+}
+
+.drum-components{
+    display: grid;
+    color: rgb(39, 35, 30);
+    grid-template-columns: repeat(4,300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 10px;
+}
+
+.drum-component{
+    /* border: 2px solid rgb(235, 230, 223); */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.07s;
+
+}
+
+.crash-container{
+    background-color: #93827f;
+
+}
+
+.ride-container{
+    background-color: #6BA292;
+   
+}
+
+.floor-tom-container{
+    background-color: #35CE8D;
+}
+
+.mid-tom-container{
+    background-color: #BCD8B7;
+}
+
+.high-tom-container{
+    background-color: #E0D2C3;
+}
+
+.kick-one-container{
+    background-color: #FE5D26;
+}
+
+.kick-two-container{
+    background-color: #F2C078;
+}
+
+.snare-container{
+    background-color: #FAEDCA;
+}
+
+.hh-open-container{
+    background-color: #C1DBB3;
+}
+
+.hh-closed-container{
+    background-color: #7EBC89;
+}
+
+.playing{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 6px #1f1d1d;
+}
